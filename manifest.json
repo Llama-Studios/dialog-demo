@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Dialog Command Demo",
+        "description": "Demonstration of the new /dialogue command.",
+        "uuid": "e8d51178-05b5-4b2e-9937-44950c902f18",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 16, 0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "ea36784a-d6ae-408e-bdff-c403b73135eb",
+            "version": [0, 0, 1]
+        }
+    ],
+}
