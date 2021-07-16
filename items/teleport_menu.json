@@ -15,13 +15,15 @@
       "minecraft:foil": true,
       "minecraft:icon":{
          "texture":"ender_pearl"
+      },
+      "minecraft:display_name": {
+         "value": "Teleport Menu"
       }
     },
     "events":{
       "open_menu":{
         "run_command":{
           "command":[
-            "summon npc ~ 255 ~",
             "dialogue open @e[type=npc,c=1] @p main_teleport_menu"
           ]
         }
