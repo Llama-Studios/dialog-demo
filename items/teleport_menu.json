@@ -1,0 +1,31 @@
+{
+  "format_version":"1.16.100",
+  "minecraft:item":{
+    "description":{
+      "identifier":"dialog:teleport_menu",
+      "category":"items"
+    },
+    "components":{
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "open_menu",
+          "target": "self"
+        }
+      },
+      "minecraft:foil": true,
+      "minecraft:icon":{
+         "texture":"ender_pearl"
+      }
+    },
+    "events":{
+      "open_menu":{
+        "run_command":{
+          "command":[
+            "summon npc ~ 255 ~",
+            "dialogue open @e[type=npc,c=1] @initiator main_teleport_menu"
+          ]
+        }
+      }
+    }
+  }
+}
