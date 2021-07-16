@@ -22,7 +22,7 @@
         "run_command":{
           "command":[
             "summon npc ~ 255 ~",
-            "dialogue open @e[type=npc,c=1] @initiator main_teleport_menu"
+            "dialogue open @e[type=npc,c=1] @p main_teleport_menu"
           ]
         }
       }
