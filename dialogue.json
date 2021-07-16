@@ -16,13 +16,15 @@
           {
             "name": "My Base",
             "commands": [
-              "/tp @initiator -20 4 -20"
+              "/tp @initiator -20 4 -20",
+              "/tp @e[type=npc,c=1] ~ -100 ~"
             ]
           },
           {
             "name": "World Spawn",
             "commands": [
-              "/tp @initiator 0 4 0"
+              "/tp @initiator 0 4 0",
+              "/tp @e[type=npc,c=1] ~ -100 ~"
             ]
           }
         ]
@@ -41,13 +43,15 @@
           {
             "name": "Shopping District",
             "commands": [
-              "/tp @initiator 20 4 20"
+              "/tp @initiator 20 4 20",
+              "/tp @e[type=npc,c=1] ~ -100 ~"
             ]
           },
           {
             "name": "Gaming District",
             "commands": [
-              "/tp @initiator 20 4 -20"
+              "/tp @initiator 20 4 -20",
+              "/tp @e[type=npc,c=1] ~ -100 ~"
             ]
           }
         ]
